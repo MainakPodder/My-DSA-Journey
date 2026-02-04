@@ -9,11 +9,13 @@ Note:
 - 
 
 */
+
 public class CountReversePairs {
     // TC: O(n^2), SC: O(1)
     public static int countPairs_BruteForce(int[] a, int n) {
         int count = 0;
 
+        // i=4: j loop skips (j=5 exceeds n-1)
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (a[i] > 2 * a[j]) {
