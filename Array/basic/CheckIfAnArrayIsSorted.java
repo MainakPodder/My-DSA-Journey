@@ -6,7 +6,7 @@ Link:
 - https://takeuforward.org/data-structure/check-if-an-array-is-sorted
 */
 
-package arrays.basic;
+package Array.basic;
 
 public class CheckIfAnArrayIsSorted {
     public static boolean isSorted_BruteForce(int[] arr) {

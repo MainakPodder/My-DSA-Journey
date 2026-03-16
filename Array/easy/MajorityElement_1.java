@@ -6,7 +6,6 @@ Link:
 - https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times
 
 */
-package arrays.easy;
 
 public class MajorityElement_1 {
     public static int majorityElement_BruteForce(int[] arr) {

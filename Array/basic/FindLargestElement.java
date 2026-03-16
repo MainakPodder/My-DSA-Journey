@@ -9,7 +9,7 @@ Note:
 - Use arr[0] is efficient (skips one loop); use Integer.MIN_VALUE is safer handling of negative numbers.
 */
 
-package arrays.basic;
+package Array.basic;
 
 import java.util.Arrays;
 
