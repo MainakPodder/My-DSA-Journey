@@ -3,7 +3,8 @@ package Strings.easy;
 public class LargestOddNumberInAString {
     public static String getLargestOddNumberInAString(String str) {
         int len = str.length();
-        if (len == 0) return "";
+        if (len == 0)
+            return "";
 
         int fIdx = -1;
         int lIdx = -1;
@@ -15,8 +16,8 @@ public class LargestOddNumberInAString {
                 break;
             }
         }
-System.out.println("mainak");
-if (lIdx == -1) return ""; 
+        System.out.println("mainak");
+        if (lIdx == -1) return "";
         for (int i = 0; i <= lIdx; i++) {
             int num = str.charAt(i) - '0';
             if (num != 0) {
@@ -28,7 +29,7 @@ if (lIdx == -1) return "";
 
         // If all digits before lIdx are zero → start from lIdx itself
         // if (fIdx == -1) fIdx = lIdx;
-        return str.substring(fIdx, lIdx+1);
+        return str.substring(fIdx, lIdx + 1);
     }
 
     public static void main(String[] args) {
